@@ -26,8 +26,8 @@ def compare_and_copy(p1, p2, att):
             print(f'Arquivo atualizado: {file}')
 
 # Exemplo de uso:
-pasta1 = r"C:\Users\diogo\Área de Trabalho\projs\att_compare&copy\test\p1"
-pasta2 = r"C:\Users\diogo\Área de Trabalho\projs\att_compare&copy\test\p2"
-pasta_att = r"C:\Users\diogo\Área de Trabalho\projs\att_compare&copy\test\att"
+p1 = r"path1 (updated)"
+p2 = r"path2 (old)"
+p_att = r"modified files only folder"
 
-compare_and_copy(pasta1, pasta2, pasta_att)
+compare_and_copy(p1, p2, p_att)
