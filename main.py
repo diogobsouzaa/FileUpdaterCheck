@@ -28,6 +28,6 @@ def compare_and_copy(p1, p2, att):
 # Exemplo de uso:
 p1 = r"path1 (updated)"
 p2 = r"path2 (old)"
-p_att = r"modified files only folder"
+p_att = r"path for modified files only folder"
 
 compare_and_copy(p1, p2, p_att)
